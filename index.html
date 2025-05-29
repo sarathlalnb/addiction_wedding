@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Wedding Photography</title>
+    <title>Addiction Wedding</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
@@ -17,10 +17,11 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
 
- <body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top container">
+  <body>
+    <header id="header" class="fixed-top top-0">
+       <nav class="navbar navbar-expand-lg navbar-dark container">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="./index.html">
           <img src="./assets/images/logo.png" alt="ADDICTION WEDDING" />
         </a>
         <button
@@ -36,7 +37,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
             <li class="nav-item"><a class="nav-link" href="#">About</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Moments</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Films</a></li>
@@ -45,6 +48,8 @@
         </div>
       </div>
     </nav>
+    </header>
+   
 
     <div class="hero">
       <div id="carouselHero" class="carousel slide" data-bs-ride="carousel">
@@ -121,23 +126,187 @@
         <p class="carousel_font">Your Story, Perfectly Framed</p>
       </div>
     </div>
-    
-    <section class="section container d-flex lg-row ">
+
+    <section class="section container d-flex lg-row">
       <div class="abtContent col">
-          <h1 class="heading">Preserving Timeless Memories</h1>
+        <h1 class="heading">Preserving Timeless Memories</h1>
+        <p class="description">
+          Some moments in life are so precious that we wish we could pause time
+          or go back and experience them again. While time moves forward,
+          photographs hold the power to keep those special memories alive. A
+          single image can bring back the emotions, beauty, and essence of a
+          moment, making it feel as vivid as the day it happened.
+        </p>
+        <button class="btn-custom">Book Now</button>
+      </div>
+
+      <div class="image-container col mb-3">
+        <img
+          src="./assets/images/abImg1.png"
+          alt="Bride & Groom in Mountains"
+          class="image1 img-fluid"
+        />
+        <img
+          src="./assets/images/abImg2.png"
+          alt="Wedding Couple"
+          class="image2 img-fluid"
+        />
+      </div>
+    </section>
+
+    <section class="container text-center">
+      <h1 class="heading">About Us</h1>
+      <p class="description">
+        Every moment holds a story, and we are here to capture it in its purest
+        form. With a keen eye for emotions and details, we turn fleeting moments
+        into timeless memories. From heartfelt smiles to joyful celebrations,
+        our photography reflects the essence of your special day. Committed to
+        excellence, we strive to create images that you’ll cherish
+        forever—making us a trusted choice for wedding photography in Kerala.
+      </p>
+    </section>
+    <section
+      class="video-section mt-5"
+      style="
+        position: relative;
+        padding-bottom: 30.25%;
+        height: 0;
+        overflow: hidden;
+        margin-bottom: 80px;
+      "
+    >
+      <iframe
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+        src="https://www.youtube.com/embed/QFWikBB-80o?si=fEfklNhbNpzmwjdU"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </section>
+
+    <section class="container mt-5">
+      <div class="row mt-5">
+        <div class="col-md-4">
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/0mhMLZX4dWU?si=9eBsCMUI18CveC_X"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="col-md-1 mt-5">
+          <!-- optional spacer, or delete if unused -->
+        </div>
+        <div class="col-md-7">
+          <h1 class="heading">
+            An Emotional <br />
+            Wedding Reception
+          </h1>
+          <hr />
           <p class="description">
-              Some moments in life are so precious that we wish we could pause time or go back and experience them again.
-              While time moves forward, photographs hold the power to keep those special memories alive. A single image
-              can bring back the emotions, beauty, and essence of a moment, making it feel as vivid as the day it happened.
+            Goodbyes are never easy, even in moments of celebration. As Sruthy
+            and Rahul step into their new journey together, their wedding
+            reception becomes a mix of joy and deep emotions. For her family,
+            she is more than just a daughter or a sister—she is a part of their
+            very soul, making this transition bittersweet. <br />
+            This video captures the unspoken emotions of a family trying to hold
+            back tears, ensuring the evening remains filled with love and
+            laughter. It’s a heartfelt reminder of how beautiful yet emotional
+            new beginnings can be.
           </p>
-          <button class="btn-custom">Book Now</button>
+        </div>
       </div>
-  
-      <div class="image-container col">
-          <img  src="./assets/images/abImg1.png" alt="Wedding Couple" class="image1">
-          <img src="./assets/images/abImg2.png" alt="Bride & Groom in Mountains" class="image2">
+      <div class="text-end">
+        <button class="btn-custom">View Movies</button>
       </div>
-  </section>
+    </section>
+
+    <section class="mt-5">
+      <div class="d-md-flex justify-content-around align-items-center ">
+        <div class="img-home-container text-center mb-2">
+          <img
+            src="./assets/images/homeImg.png"
+            alt="Image of wedding"
+            class="img-fluid w-75"
+          />
+        </div>
+       <div class="img-home-container text-center mb-2">
+          <img
+            src="./assets/images/homeImg.png"
+            alt="Image of wedding"
+            class="img-fluid w-75"
+          />
+        </div>
+          <div class="img-home-container text-center mb-2">
+          <img
+            src="./assets/images/homeImg.png"
+            alt="Image of wedding"
+            class="img-fluid w-75"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-5 container">
+      <div class="text-center">
+        <h1 class="heading">
+          Stories
+        </h1>
+        <div class="d-md-flex justify-content-between mt-5">
+          <div class="text-center shadow">
+            <img src="./assets/images/home_storiesImg.png" alt="Stories Img" class="img-fluid w-50">
+            <h3 class="head2">
+              Wedding
+            </h3>
+          </div>
+          <div class="text-center shadow">
+            <img src="./assets/images/home_storiesImg.png" alt="Stories Img" class="img-fluid w-50">
+             <h3 class="head2">
+              Films
+            </h3>
+          </div>
+          <div class="text-center shadow">
+            <img src="./assets/images/home_storiesImg.png" alt="Stories Img" class="img-fluid w-50">
+             <h3 class="head2">
+              Outdoor
+            </h3>
+          </div>
+        </div>
+        <div class="text-center mt-5">
+          <button class="btn-custom2">
+            More Gallery
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="my-5">
+      <img style="height: 400px;" src="./assets/images/home_wFull.png" alt="" class=" w-100">
+    </section>
+
+    <footer id="footer" class="mt-5 text-center container">
+      <div class="text-center">
+        <img class="img-thumbnail" src="./assets/images/logo.png" alt="">
+        <p style="text-align: center;" class="description">
+          No 234, Placer Loquen Marsei Niriva,<br> 
+Moliva. <br>
++33 321-654-987 (Ext: 123). <br>
+Booking@example.com <br>
+www.example.com <br>
+        </p>
+      </div>
+      <div class="d-md-flex justify-content-between">
+        <span class="description">© 2025 Orbixil. All rights reserved.</span>
+        <div class="description text-center">Icons</div>
+        <span class="description">Privacy Policy Terms of Use</span>
+      </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script>
@@ -147,7 +316,7 @@
             nav.classList.remove("active");
           });
           this.classList.add("active");
-        }); 
+        });
       });
     </script>
   </body>
